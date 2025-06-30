@@ -11,7 +11,7 @@
         "release": "node scripts/push-release.js"
     },
     "name": "disable-devtool",
-    "version": "0.3.8",
+    "version": "0.4.0",
     "description": "Disable web developer tools from the f12 button, right-click and browser ",
     "main": "disable-devtool.min.js",
     "unpkg": "disable-devtool.min.js",
@@ -59,7 +59,5 @@
         "typescript": "^4.7.4"
     },
     "dependencies": {},
-    "publishConfig": {
-        "registry": "https://registry.npmjs.org"
-    }
+    "publishConfig": {}
 }

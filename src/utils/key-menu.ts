@@ -21,7 +21,7 @@ export function disableKeyAndMenu (dd: IDisableDevtool) {
     disableTarget(parent);
     parent = parent.parent;
   }
-  disableTarget(top);
+  // disableTarget(top);
 }
 
 function disableTarget (target: Window) {
