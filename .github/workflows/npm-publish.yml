@@ -1,0 +1,15 @@
+name: Build and deploy to lambda
+
+on:
+  push:
+    branches:
+      - "revenge" # TODO: uncomment this
+
+permissions:
+  contents: write
+
+jobs:
+  deploy:
+    uses: Revenge-Games/workflows-template/.github/workflows/pnpm-publish.yml@main
+    secrets:
+      NPM_REGISTRY_SECRET: ${{ secrets.NPM_REGISTRY_SECRET }}
